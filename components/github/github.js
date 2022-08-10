@@ -9,7 +9,7 @@ const Link = styled(Button)`
      height: 40px;
      background: ${({ theme }) => theme.background};
      color: ${({ theme }) => theme.text};
-     transition: 0.5s ease-in-out;
+     transition: 0.3s ease-in-out;
      border-radius: 0;
      &:hover {
           background: ${({ theme }) => theme.hover};
