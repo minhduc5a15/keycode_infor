@@ -9,12 +9,12 @@ const ButtonTheme = styled(IconButton)`
      left: 0;
      top: 0;
      background: transparent;
-     border-radius: 5px;
+     border-radius: 0;
      font-size: 16px;
      border: none;
      outline: none;
      cursor: pointer;
-     transition: 0.2s ease-in-out;
+     transition: 0.3s ease-in-out;
      z-index: 1;
      &:hover {
           background: ${({ theme }) => theme.hoverButton};
