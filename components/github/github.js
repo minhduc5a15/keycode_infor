@@ -18,7 +18,7 @@ const Link = styled(Button)`
 `;
 const GithubLink = () => {
      return (
-          <Link href="https://github.com/minhduc5a15">
+          <Link href="https://github.com/minhduc5a15/keycode_infor">
                <GitHubIcon />
           </Link>
      );
