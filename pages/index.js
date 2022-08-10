@@ -7,6 +7,7 @@ import Toggle from "../components/theme/toggle";
 import { GlobalStyles } from "../components/theme/global";
 import { lightTheme, darkTheme } from "../components/theme/theme";
 import { ThemeProvider } from "styled-components";
+import GithubLink from "../components/github/github";
 const Home = () => {
      const [theme, setTheme] = useState("light");
      const toggleTheme = () => {
@@ -19,6 +20,7 @@ const Home = () => {
                {isPress ? <KeyInfo /> : <Text />}
                <Toggle toggleTheme={toggleTheme} theme={theme} />
                <GlobalStyles />
+               <GithubLink />
           </ThemeProvider>
      );
 };
