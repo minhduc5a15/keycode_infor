@@ -9,7 +9,7 @@ const KeyProvider = ({ children }) => {
                const key = [e.ctrlKey, e.shiftKey, e.altKey];
                setKeyInfo({
                     keyCode: e.keyCode,
-                    key: e.key,
+                    key: e.keyCode === 32 ? "space" : e.key,
                     shiftKey: e.shiftKey.toString(),
                     ctrlKey: e.ctrlKey.toString(),
                     altKey: e.altKey.toString(),
